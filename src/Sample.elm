@@ -15,7 +15,7 @@ type Msg
     | Decrement
 
 
-update : Msg -> number -> number
+update : Msg -> Int -> Int
 update msg model =
     case msg of
         Increment ->
